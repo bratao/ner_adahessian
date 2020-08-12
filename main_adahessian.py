@@ -151,5 +151,5 @@ if __name__ == "__main__":
     print("Training using Adahessian")
     train(train="data/eng.testa", validation="data/eng.testa", optimizer_name="adahessian")
 
-    # print("Training using Ranger")
-    # train(train="data/eng.testa", validation="data/eng.testa", optimizer_name="ranger")
+    print("Training using Ranger")
+    train(train="data/eng.testa", validation="data/eng.testa", optimizer_name="ranger")
